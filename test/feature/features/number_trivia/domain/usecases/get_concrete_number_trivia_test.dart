@@ -21,7 +21,7 @@ void main() {
   final tNumberTrivia = NumberTrivia(number: tNumber, text: 'test');
 
   test(
-    'should get trivia for the number from reository',
+    'should get trivia for the number from repository',
     () async {
       // arrange
       when(mockNumberTriviaRepository.getConcreteNumberTrivia(any))
