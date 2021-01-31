@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:meta/meta.dart';
-import 'package:number_trivia_flutter/core/error/failure.dart';
-import 'package:number_trivia_flutter/features/number_trivia/domain/entities/number_trivia.dart';
+import '../../../../core/error/failure.dart';
+import '../entities/number_trivia.dart';
 
 import '../repositories/number_trivia_repository.dart';
 
